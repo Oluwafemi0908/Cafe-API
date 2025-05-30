@@ -1,0 +1,40 @@
+.nav-link {
+    color: grey
+}
+.nav-link:hover{
+color: black}
+
+.logo {
+    content: url('/static/images/coffee wifi.svg');
+  }
+
+body[data-bs-theme="dark"] .logo {
+      content: url('/static/images/coffee wifi light.svg');
+    }
+
+body[data-bs-theme="dark"] .nav-link:hover{
+    color: white}
+
+body[data-bs-theme="dark"] .btn-dark {
+    background-color: white;
+    color: black
+    }
+
+body[data-bs-theme="dark"] .btn-dark:hover {
+    background-color: grey;
+    color: black
+    }
+
+  /* Dark mode: white logo */
+  /*@media (prefers-color-scheme: dark) {
+    .logo {
+      content: url('/static/images/coffee wifi light.svg');
+    }
+    .nav-link:hover{
+    color: white}
+
+    .btn-dark {
+    background-color: white;
+    color: black
+    }
+    }*/
